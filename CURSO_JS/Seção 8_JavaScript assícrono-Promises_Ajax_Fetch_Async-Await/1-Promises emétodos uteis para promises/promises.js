@@ -24,7 +24,10 @@ function espera(msg, tempo){
     return new Promise((resolve, reject)=>{
          
         setTimeout(() => {
-            if (typeof msg !== "string") reject("ERROR")
+            if (typeof msg !== "string") {
+                reject("ERROR")
+                return
+            }
             // console.log(msg);
             resolve(msg)
         }, tempo);
