@@ -1,0 +1,2 @@
+(()=>{"use strict";var e="Fernando ",r=document.querySelector(".resultado"),n=document.createElement("div");n.innerText=e+"Pereira Xavier32",r.appendChild(n),console.log(e)})();
+//# sourceMappingURL=bundle.js.map
