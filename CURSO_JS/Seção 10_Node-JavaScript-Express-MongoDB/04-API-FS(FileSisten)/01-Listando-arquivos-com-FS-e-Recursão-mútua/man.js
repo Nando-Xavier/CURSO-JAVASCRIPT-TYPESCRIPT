@@ -1,6 +1,6 @@
 const fs = require("fs").promises;
 const path = require("path");
-// console.log(__dirname);
+console.log(__dirname);
 
 async function readdir(routDir) {
   routDir = routDir || path.resolve(__dirname);
@@ -24,5 +24,5 @@ async function recebeArquivos(files, routDir) {
   }
 }
 
-readdir("c:/Users/perei/OneDrive/Área de Trabalho/PROGRAMAÇÃO/CURSO_JS/");
+readdir();
 //
