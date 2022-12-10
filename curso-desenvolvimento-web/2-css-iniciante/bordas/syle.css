@@ -1,0 +1,42 @@
+.div {
+  margin: 5px;
+}
+
+#solid {
+  border: 26px solid red;
+}
+#dotted {
+  border: 16px dotted red;
+}
+#dashed {
+  border: 16px dashed red;
+}
+#double {
+  border: 16px double red;
+}
+#groove {
+  border: 16px groove red;
+}
+
+#ridge {
+  border: 16px ridge red;
+}
+
+#inset {
+  border: 16px inset red;
+}
+#outset {
+  border: 16px outset red;
+}
+#none {
+  border: none; /*tira todas as bordas*/
+}
+#hidden {
+  border: 16px hidden red;/*esconde todas as bordas*/
+}
+
+#varios{
+  border-color: red green yellow blue;/*define a cor da borda*/
+  border-width: 16px 12px 8px 4px; /*define a largura da borda*/
+  border-style: double groove solid dashed; /*Define o estilo da borda*/
+}
