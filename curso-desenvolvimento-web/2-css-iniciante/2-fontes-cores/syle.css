@@ -1,0 +1,10 @@
+.formatacao{
+  color: #111010;/*Define a cor do texto*/
+  font-size: 40px;
+  background: red;
+  font-family: 'Times New Roman', Times, serif;/*
+  Vai tentar a primeia fonte, se não tivr tentará a sengunda ese não pegará uma fonte gnerica
+  Usa-se emprimeiro lugar as fontes que que queremos, como as que se importa do google fonts
+  */
+}
+

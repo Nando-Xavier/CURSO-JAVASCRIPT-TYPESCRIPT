@@ -1,15 +1,26 @@
 const express = require('express')
-const app = express()
-const path = require("path")
-app.get('/', (req, res)=>{
-  res.send('<form action="/" method="POST">Nome do Cliente: <input type="text" nome="nome"><button>Enviar</button></form>');
-})
+const path = require('path')
 
-app.post('/', (req, res) => {
-  res.send('Recebir o formulário')
+const app = express()
+
+/* 
+         Criar   | Ler   | Atualizar   |  APAGAR
+CRUD --> CREATE, | READ, | UPDADE,     |  DELETE
+         POST    | GET   | PUT         |  DELETAR
+*/
+
+app.get('/', (req,res) =>{
+  res.send('<form action="/contato" method="POST">Nome:<br><input type="text" name="name"><button>Enviar</button></form>')
+});
+
+app.get('/contato', (req,res) =>{
+  res.send('Olá <strong>Mundo</strong>')
+});
+
+app.post('/contato', (req, res)=>{
+  res.send('Formulario rcebido')
 })
 
 app.listen(3000, ()=>{
-  console.log('Servidor rodando na porta 3000.\n Acessar http://localhost:3000');
+  console.log('Servidor rodando na porta 3000.\n Acesse http://localhost:3000');
 })
-

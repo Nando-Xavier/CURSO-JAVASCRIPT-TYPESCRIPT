@@ -1,0 +1,28 @@
+/*Unidade de medidas
+px -> Essas medidas são fixas e não mudam de acordo com as especificações do dispositivo.
+%  -> tamanho relativo
+em -> tamanho relativo ao conteiner pai
+rem -> tamanho relativo ao conteiner Raiz(<html>)
+
+
+*/
+*{
+  padding: 0;
+  margin: 0;
+}
+.texto {
+  border: 2px solid red;
+  font-size: 30px;
+}
+
+#pai {
+  font-size: 16px;
+  border: 2px solid red;
+}
+
+  
+
+#span{
+  border: 2px solid red;
+  
+}
