@@ -1,25 +1,25 @@
-const string = "O rato roeo a ropa do rei de roma"
+const string = "rato";
 //                           METODOS DE STRINGS
-//concat()   Serve para concatenar strings, ex: 
-// console.log(string.concat(" Pereira xavier"));
+//concat()   Serve para concatenar strings, ex:
+// console.log(string.concat("Pereira xavier"));
 
 //indexOf()   Serve para pesquisar em qual indice começa uma determinada letra ou palavra ex:
 // console.log(string.indexOf("a"))
 
 //lastIndexOf()   Metodo parecido com o indexOf mas com a diferença que começa de raz pra frente
 
-// replace()   O método replace () percorre toda a string em busca da sequência de caracteres a ser substituída. Caso essa sequência de caracteres não seja encontrada, nenhuma substituição é realizada; caso seja encontrada, uma nova string, com a substituição feita, é devolvida pelo método. Ex: 
+// replace()   O método replace () percorre toda a string em busca da sequência de caracteres a ser substituída. Caso essa sequência de caracteres não seja encontrada, nenhuma substituição é realizada; caso seja encontrada, uma nova string, com a substituição feita, é devolvida pelo método. Ex:
 // console.log(string.replace('r', '#'));   /* substitui apenas a primeira letra "r" encontrada. */
 // console.log(string.replace(/r/g, '#'));   /*substitui todas as letra "r" encontradas. */
 
-// .length   Para saber o tamanho de uma string. Ex/: 
+// .length   Para saber o tamanho de uma string. Ex/:
 // console.log(string.length);
 
 // slice()   Serve para extrair uma parte da string dada uma posição inicial e final: Ex:
-// console.log(string.slice(0, -1));
+console.log(string.slice(0, 1));
 
 // split()   Serve para dividir uma string de acordo com o parametro e/ou com um segundo parametro de limite de quantidades e retornando um array com as partes divididas. Ex:
-// console.log(string.split(" ", 3));
+// console.log(string.split(" "));
 
 // toUpperCase()   Serve para tranformar todas as letra de uma string em maiusculas ex:
 // console.log(string.toUpperCase());
@@ -33,9 +33,9 @@ const string = "O rato roeo a ropa do rei de roma"
 
 //.endsWith("valor") função qure busca qual valor estar no final de uma string.
 
-let str = "Please locate where 'locate' occurs!";
-str.search("locate");
-console.log(str.search("locate"));
+// let str = "Please";
+// str.search("locate");
+// console.log(str.search("P"));
 // Fernando Pereira Xavier
 
 // const nome = prompt('Digite seu nome')

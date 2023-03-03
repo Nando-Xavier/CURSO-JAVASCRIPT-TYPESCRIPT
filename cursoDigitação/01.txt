@@ -1,0 +1,2 @@
+flatpak run net.sourceforge.Klavaro
+Código para acessar o app do curso

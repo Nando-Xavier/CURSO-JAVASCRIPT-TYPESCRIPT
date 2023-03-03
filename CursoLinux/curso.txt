@@ -1,0 +1,24 @@
+COISAS IMPORTANTES:
+~ simboliza o diretório HOME, o diretório do usuário.
+# significa que quem tá logado é um usuário RUTE(um administrador do sistema).
+   Para logar como usuário roda-se o comando "su -"
+$ significa que quem tá logado não é um usuário RUTE
+ 
+
+
+
+
+
+--------Acesso no linux via SSh----------
+
+Conectar com outra máquina através de chave ssh.
+1º rode o comando “hostname -I” na maquina  que você quer conectar para encontrar o IP da maquina.
+2º rode o comando “ssh nomeDaMaquina@IP na maquina que de acesso, dê um sim e  já vai está conectado.
+
+-------Conhecendo o shell no linux
+
+ls ---> list os arquivos
+ls -lha ---> lista com detalhes 
+Ctrl+l ---> limpa o terminal(mesmo "clear")
+ 
+

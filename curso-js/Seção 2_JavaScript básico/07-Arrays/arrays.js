@@ -1,8 +1,8 @@
-const alunos = ['fernando', 'eliza', 'railma', 'francisca']
-const nome = 'fernando pereira xavier'
-const a = nome.split(" ")
-console.log(a);
-//arrays[indice] = 'NOVO VALOR' ----> para editando um valor 
+// const alunos = ['fernando', 'eliza', 'railma', 'francisca']
+// const nome = 'fernando pereira xavier'
+// const a = nome.split(" ")
+// console.log(a);
+//arrays[indice] = 'NOVO VALOR' ----> para editando um valor
 //arrays[indice]  ----> para acessar um determinado valor
 //arrays.length  -----> para saber o tamanho do arrays
 //arrays.push(valor)  -----> para adicionar um valor no final do array
@@ -20,19 +20,16 @@ console.log(a);
 // array.forEach((valor, indice, array) => {})função usada pa interar sobre o valor de arrays
 // Array.from() ---> convete qualquer coisa em uma array
 
-
 // const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 // const array1 = array.filter((valor)=>{
 //     // filtra e retorna os valore maiores que 5
 //     return valor > 5
 // })
 
-
 // const array2 = array.map((valor) => {
 //     // retorna os valores do array multiplicado por 2
 //     return valor * 2
 // })
-
 
 // const array3 = array.reduce((acumulador, valor) => {
 //     // retorna os valoeres acumulados do array
@@ -42,3 +39,27 @@ console.log(a);
 // console.log(array1);
 // console.log(array2);
 // console.log(array3);
+
+function avancarDias(dia, quantidade) {
+  let dias = [
+    "Segunda-feira",
+    "Terca-feira",
+    "Quarta-feira",
+    "Quinta-feira",
+    "Sexta-feira",
+    "Sabado",
+    "Domingo",
+  ];
+
+  let indice = 0;
+  for (let i = 0; i < dias.length; i++) {
+    if (dias[i] === dia) {
+      indice = i;
+    }
+  }
+
+  indice = (indice + quantidade) % 7;
+
+  console.log(dias[indice]);
+}
+avancarDias("Segunda-feira", 4);
